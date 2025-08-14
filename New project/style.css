@@ -1,0 +1,33 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a0a0a;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#readLink {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: white;
+  background: rgba(255, 0, 100, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: none;
+  text-decoration: none;
+  font-family: 'Times New Roman', serif;
+  box-shadow: 0 0 10px pink;
+}
+
+#readLink:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
